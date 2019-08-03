@@ -14,22 +14,24 @@
     <meta charset="UTF-8">
   </head>
   <body>
-    <nav>
-      <div class="nav-wrapper cyan darken-2">
-        <a href="#" class="brand-logo">Na'vi WotD</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="https://twitter.com/navi_wotd">@navi_wotd</a></li>
-          <li><a href="https://twitter.com/search?q=%23navi_wotd">#navi_wotd</a></li>
-          <li><a href="#">Login</a></li>
-        </ul>
-      </div>
-    </nav>
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="https://twitter.com/navi_wotd">@navi_wotd</a></li>
-      <li><a href="https://twitter.com/search?q=%23navi_wotd">#navi_wotd</a></li>
-      <li><a href="#">Login</a></li>
-    </ul>
-    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <div class="navbar">
+      <nav class="cyan darken-2">
+        <div class="nav-wrapper">
+          <a href="https://tirea.learnnavi.org/index.php" class="brand-logo">Na&apos;vi WotD</a>
+          <a href="#" data-activates="mobilenav" class="button-collapse"><i id="mobile-menu-icon" class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down" id="regnav">
+            <li><a href="https://twitter.com/navi_wotd">@navi_wotd</a></li>
+            <li><a href="https://twitter.com/search?q=%23navi_wotd">#navi_wotd</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+          <ul class="side-nav" id="mobilenav">
+            <li><a href="https://twitter.com/navi_wotd">@navi_wotd</a></li>
+            <li><a href="https://twitter.com/search?q=%23navi_wotd">#navi_wotd</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <div id="notice" class="amber">Notice: Website Under Construction :D</div>
     <div id="content" class="container">
       <h1 class="center">Kaltxì!</h1>
