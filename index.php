@@ -49,17 +49,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>0</td>
-            <td><strong>tìfmetok</strong>: <i>n.</i> test</td>
-            <td>fì'u lu tìfmetok</td>
-            <td>this is a test</td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td><strong>tirea</strong>: <i>n.</i> spirit</td>
-            <td>tirea lu ean</td>
-            <td>the spirit is blue</td>
+        <?php readfile('rows.html'); ?>
         </tbody>
       </table>
     </div>
