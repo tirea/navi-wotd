@@ -22,7 +22,6 @@
           <li><a href="https://twitter.com/search?q=%23navi_wotd">#navi_wotd</a></li>
           <li><a href="#">Login</a></li>
         </ul>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
     </nav>
     <ul class="sidenav" id="mobile-demo">
@@ -30,6 +29,7 @@
       <li><a href="https://twitter.com/search?q=%23navi_wotd">#navi_wotd</a></li>
       <li><a href="#">Login</a></li>
     </ul>
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     <div id="notice" class="amber">Notice: Website Under Construction :D</div>
     <div id="content" class="container">
       <h1 class="center">Kaltxì!</h1>
