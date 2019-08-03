@@ -1,0 +1,12 @@
+nav .brand-logo, #notice {
+  padding-left: 10px;
+}
+
+#notice {
+  display: block;
+  width: 100%;
+}
+
+#sigbar {
+  max-width: 100%;
+}
