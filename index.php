@@ -43,9 +43,10 @@
         <thead>
           <tr>
             <th>#</th>
-            <th>Word of the day (with MP3-link)</th>
+            <th>Word of the Day</th>
             <th>Aylì'u Na'viyä</th>
             <th>English words</th>
+            <th>Audio [MP3]</th>
           </tr>
         </thead>
         <tbody>
