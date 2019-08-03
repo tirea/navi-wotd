@@ -1,3 +1,7 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
 nav .brand-logo, #notice {
   padding-left: 10px;
 }

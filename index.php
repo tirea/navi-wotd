@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Na'vi Word of the Day</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
     <!--Import Google Icon Font-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <!-- Compiled and minified CSS -->
@@ -31,6 +32,7 @@
       <li><a href="#">Login</a></li>
     </ul>
     <div id="notice" class="amber">Notice: Website Under Construction :D</div>
+
     <div id="content" class="container">
       <h1 class="center">Kaltxì!</h1>
       <p>"Na'vi Word Of The Day"
@@ -39,7 +41,9 @@
         Are you interested in the beautiful Na'vi language? Check out
         <a href="https://learnnavi.org">LearnNavi.org</a> for more.
       </p>
-      <img id="sigbar" src="http://raxsoft.com/raxdev/sbt/sb.php?b=59">
+      <h3 class="center">Latest Tweet</h3>
+      <a class="twitter-timeline" href="https://twitter.com/navi_wotd" data-tweet-limit="1" data-chrome="noheader nofooter noscrollbar noborders transparent"></a>
+      <h3 class="center">Tweet History</h3>
       <p>Here are the words of the day broadcast so far. The link in the word will
         open a new window in which you can hear an MP3 with a spoken example. The
         example is provided in writing as well, for easier understanding. If there is
@@ -74,6 +78,7 @@
         are the properties of their respective owners.
       </p>
     </div>
+    <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
