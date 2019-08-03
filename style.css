@@ -10,3 +10,7 @@ nav .brand-logo, #notice {
 #sigbar {
   max-width: 100%;
 }
+
+#footer {
+  padding-top: 20px;
+}

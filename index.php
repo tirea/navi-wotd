@@ -14,24 +14,16 @@
     <meta charset="UTF-8">
   </head>
   <body>
-    <div class="navbar">
-      <nav class="cyan darken-2">
-        <div class="nav-wrapper">
-          <a href="https://tirea.learnnavi.org/index.php" class="brand-logo">Na&apos;vi WotD</a>
-          <a href="#" data-activates="mobilenav" class="button-collapse"><i id="mobile-menu-icon" class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down" id="regnav">
-            <li><a href="https://twitter.com/navi_wotd">@navi_wotd</a></li>
-            <li><a href="https://twitter.com/search?q=%23navi_wotd">#navi_wotd</a></li>
-            <li><a href="#">Login</a></li>
-          </ul>
-          <ul class="side-nav" id="mobilenav">
-            <li><a href="https://twitter.com/navi_wotd">@navi_wotd</a></li>
-            <li><a href="https://twitter.com/search?q=%23navi_wotd">#navi_wotd</a></li>
-            <li><a href="#">Login</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+    <nav>
+      <div class="nav-wrapper cyan darken-2">
+        <a href="#" class="brand-logo">Na'vi WotD</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="https://twitter.com/navi_wotd">@navi_wotd</a></li>
+          <li><a href="https://twitter.com/search?q=%23navi_wotd">#navi_wotd</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </nav>
     <div id="notice" class="amber">Notice: Website Under Construction :D</div>
     <div id="content" class="container">
       <h1 class="center">Kaltxì!</h1>
@@ -45,7 +37,7 @@
       <p>Here are the words of the day broadcast so far. The link in the word will
         open a new window in which you can hear an MP3 with a spoken example. The
         example is provided in writing as well, for easier understanding. If there is
-        no link in the table, then unfortunately there is no mp3 file for this word (yet).
+        no link under the word, then unfortunately there is no mp3-file for this word (yet).
       </p>
       <table class="striped">
         <thead>
@@ -76,13 +68,7 @@
         are the properties of their respective owners.
       </p>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $('.button-collapse').sideNav();
-      });
-    </script>
   </body>
 </html>
