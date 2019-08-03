@@ -22,8 +22,14 @@
           <li><a href="https://twitter.com/search?q=%23navi_wotd">#navi_wotd</a></li>
           <li><a href="#">Login</a></li>
         </ul>
+        <a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
       </div>
     </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="https://twitter.com/navi_wotd">@navi_wotd</a></li>
+      <li><a href="https://twitter.com/search?q=%23navi_wotd">#navi_wotd</a></li>
+      <li><a href="#">Login</a></li>
+    </ul>
     <div id="notice" class="amber">Notice: Website Under Construction :D</div>
     <div id="content" class="container">
       <h1 class="center">Kaltxì!</h1>
@@ -70,5 +76,11 @@
     </div>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, options);
+      });
+    </script>
   </body>
 </html>
