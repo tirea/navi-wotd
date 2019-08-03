@@ -37,7 +37,7 @@
       <p>Here are the words of the day broadcast so far. The link in the word will
         open a new window in which you can hear an MP3 with a spoken example. The
         example is provided in writing as well, for easier understanding. If there is
-        no link under the word, then unfortunately there is no mp3-file for this word (yet).
+        no link in the table, then unfortunately there is no mp3-file for this word (yet).
       </p>
       <table class="striped">
         <thead>
