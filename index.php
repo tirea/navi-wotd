@@ -11,12 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="theme-color" content="#0097a7">
+    <meta name="theme-color" content="#1976d2">
     <meta charset="UTF-8">
   </head>
   <body>
     <nav>
-      <div class="nav-wrapper cyan darken-2">
+      <div class="nav-wrapper blue darken-2">
         <a href="#" class="brand-logo">Na'vi WotD</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
@@ -31,7 +31,7 @@
       <li><a href="https://twitter.com/search?q=%23navi_wotd">#navi_wotd</a></li>
       <li><a href="#">Login</a></li>
     </ul>
-    <div id="notice" class="amber">Notice: Website Under Construction :D</div>
+    <!-- <div id="notice" class="amber">Notice: Website Under Construction :D</div> -->
 
     <div id="content" class="container">
       <h1 class="center">Kaltxì!</h1>
