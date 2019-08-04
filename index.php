@@ -15,6 +15,7 @@
     <meta charset="UTF-8">
   </head>
   <body>
+
     <nav>
       <div class="nav-wrapper blue darken-2">
         <a href="#" class="brand-logo">Na'vi WotD</a>
@@ -34,49 +35,59 @@
     <!-- <div id="notice" class="amber">Notice: Website Under Construction :D</div> -->
 
     <div id="content" class="container">
-      <h1 class="center">Kaltxì!</h1>
-      <p>"Na'vi Word Of The Day"
-        (<a href="https://twitter.com/navi_wotd">@navi_wotd</a> on Twitter)
-        tweets a Na'vi word every day.<br>
-        Are you interested in the beautiful Na'vi language? Check out
-        <a href="https://learnnavi.org">LearnNavi.org</a> for more.
-      </p>
-      <h3 class="center">Latest Tweet</h3>
-      <a class="twitter-timeline" href="https://twitter.com/navi_wotd" data-tweet-limit="1" data-chrome="noheader nofooter noscrollbar noborders transparent"></a>
-      <h3 class="center">Tweet History</h3>
-      <p>Here are the words of the day broadcast so far. The link in the word will
-        open a new window in which you can hear an MP3 with a spoken example. The
-        example is provided in writing as well, for easier understanding. If there is
-        no link in the table, then unfortunately there is no mp3-file for this word (yet).
-      </p>
-      <table class="striped">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Word of the Day</th>
-            <th>Aylì'u Na'viyä</th>
-            <th>English words</th>
-            <th>Audio [MP3]</th>
-          </tr>
-        </thead>
-        <tbody>
-        <?php readfile('rows.html'); ?>
-        </tbody>
-      </table>
+      <div class="section">
+        <h1 class="center">Kaltxì!</h1>
+        <p>"Na'vi Word Of The Day"
+          (<a href="https://twitter.com/navi_wotd">@navi_wotd</a> on Twitter)
+          tweets a Na'vi word every day.<br>
+          Are you interested in the beautiful Na'vi language? Check out
+          <a href="https://learnnavi.org">LearnNavi.org</a> for more.
+        </p>
+      </div>
+      <div class="section">
+        <h3 class="center">Latest Tweet</h3>
+        <a class="twitter-timeline" href="https://twitter.com/navi_wotd" data-tweet-limit="1" data-chrome="noheader nofooter noscrollbar transparent"></a>
+      </div>
+      <div class="section">
+        <h3 class="center">Tweet History</h3>
+        <p>Here are the words of the day broadcast so far. The link in the word will
+          open a new window in which you can hear an MP3 with a spoken example. The
+          example is provided in writing as well, for easier understanding. If there is
+          no link in the table, then unfortunately there is no mp3-file for this word (yet).
+        </p>
+        <table class="striped">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Word of the Day</th>
+              <th>Aylì'u Na'viyä</th>
+              <th>English words</th>
+              <th>Audio [MP3]</th>
+            </tr>
+          </thead>
+          <tbody>
+          <?php readfile('rows.html'); ?>
+          </tbody>
+        </table>
+      </div>
     </div>
-    <div id="footer" class="container">
-      <p><strong>Irayo</strong></p>
-      <p>My gratitude goes to Dr. Paul Frommer for creating the Na'vi language,
-        to Omängum Fra'uti for supplying the sound files and their transcripts
-        in Na'vi and English, and to Swoka Ikran for the wonderful
-        Na'vi Word of the Day banner as can be seen at the top.
-      </p>
-      <p><strong>Disclaimer</strong></p>
-      <p>LearnNavi and Navi Word of the Day are not affiliated with the official
-        Avatar website, James Cameron, or the Twentieth Century-Fox Film Corporation.
-        Trademarks and servicemarks, if or where mentioned,
-        are the properties of their respective owners.
-      </p>
+    <div class="section"></div>
+    <div id="footer" class="section grey lighten-1">
+      <div class="container">
+        <h4>Irayo</h4>
+        <p>My gratitude goes to Dr. Paul Frommer for creating the Na'vi language,
+          to Omängum Fra'uti for supplying the sound files and their transcripts
+          in Na'vi and English, and to Swoka Ikran for this wonderful
+          Na'vi Word of the Day banner:
+        </p>
+        <img src="http://raxsoft.com/raxdev/sbt/sb.php?b=59">
+        <h4>Disclaimer</h4>
+        <p>LearnNavi and Navi Word of the Day are not affiliated with the official
+          Avatar website, James Cameron, or the Twentieth Century-Fox Film Corporation.
+          Trademarks and servicemarks, if or where mentioned,
+          are the properties of their respective owners.
+        </p>
+      </div>
     </div>
     <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
