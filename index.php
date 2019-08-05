@@ -23,14 +23,12 @@
         <ul class="right hide-on-med-and-down">
           <li><a href="https://twitter.com/navi_wotd">@navi_wotd</a></li>
           <li><a href="https://twitter.com/search?q=%23navi_wotd">#navi_wotd</a></li>
-          <li><a href="#">Login</a></li>
         </ul>
       </div>
     </nav>
     <ul class="sidenav" id="mobile-demo">
       <li><a href="https://twitter.com/navi_wotd">@navi_wotd</a></li>
       <li><a href="https://twitter.com/search?q=%23navi_wotd">#navi_wotd</a></li>
-      <li><a href="#">Login</a></li>
     </ul>
     <!-- <div id="notice" class="amber">Notice: Website Under Construction :D</div> -->
 
