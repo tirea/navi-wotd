@@ -37,7 +37,7 @@
     <div id="content" class="container">
       <div class="section">
         <h1 class="center">Kaltxì!</h1>
-        <p>"Na'vi Word Of The Day"
+        <p class="center">"Na'vi Word Of The Day"
           (<a href="https://twitter.com/navi_wotd">@navi_wotd</a> on Twitter)
           tweets a Na'vi word every day.<br>
           Are you interested in the beautiful Na'vi language? Check out
